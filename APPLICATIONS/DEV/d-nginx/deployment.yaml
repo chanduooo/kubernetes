@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: d-nginx-deployment
+  labels:
+    app: d-nginx
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: d-nginx
+  template:
+    metadata:
+      labels:
+        app: d-nginx
+    spec:
+      containers:
+      - name: d-nginx
+        image: nginx:1.14.2
+        ports:
+        - containerPort: 80
