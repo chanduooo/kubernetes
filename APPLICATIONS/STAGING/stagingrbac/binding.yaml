@@ -5,7 +5,7 @@ metadata:
   name: b-staging-reconciler-binding
 subjects:
   - kind: ServiceAccount
-    name: ns-reconciler-b-staging-repo-sync-17
+    name: ns-reconciler-b-staging-repo-sync-staging-17
     namespace: config-management-system
 roleRef:
   apiGroup: rbac.authorization.k8s.io

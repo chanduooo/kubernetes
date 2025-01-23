@@ -5,7 +5,7 @@ metadata:
   name: a-dev-reconciler-binding
 subjects:
   - kind: ServiceAccount
-    name: ns-reconciler-a-dev-repo-sync-13
+    name: ns-reconciler-a-dev-repo-sync-dev-13
     namespace: config-management-system
 roleRef:
   apiGroup: rbac.authorization.k8s.io

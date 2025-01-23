@@ -5,7 +5,7 @@ metadata:
   name: c-prod-reconciler-binding
 subjects:
   - kind: ServiceAccount
-    name: ns-reconciler-c-prod-repo-sync-14
+    name: ns-reconciler-c-prod-repo-sync-prod-14
     namespace: config-management-system
 roleRef:
   apiGroup: rbac.authorization.k8s.io
