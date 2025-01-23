@@ -2,7 +2,7 @@ kind: Service
 apiVersion: v1
 metadata:
   name: d-nginx
-  namespace: d-dev
+  #namespace: d-dev
 spec:
   selector:
     app: d-nginx
