@@ -6,10 +6,10 @@ metadata:
 rules:
   - apiGroups: [""]
     resources: ["services"]
-    verbs: ["get", "list", "watch", "create", "update", "delete"]
+    verbs: ["get", "list", "create", "update", "delete"]
   - apiGroups: ["apps"]
     resources: ["deployments"]
-    verbs: ["get", "list", "watch", "create", "update", "delete"]
+    verbs: ["get", "list", "create", "update", "delete"]
   - apiGroups: ["rbac.authorization.k8s.io"]
     resources: ["rolebindings", "roles"]
-    verbs: ["get", "list", "watch"]
+    verbs: ["get", "list"]
