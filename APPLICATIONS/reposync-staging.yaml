@@ -1,0 +1,14 @@
+
+apiVersion: configsync.gke.io/v1alpha1
+kind: RepoSync
+metadata:
+  
+  name: repo-sync
+  namespace: b-dev
+spec:
+  sourceFormat: unstructured
+  git:
+    repo: https://github.com/Roopa-Sri3/kubernetes
+    branch: main
+    dir: /APPLICATIONS/STAGING/
+    auth: none
