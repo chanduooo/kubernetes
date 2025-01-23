@@ -10,6 +10,6 @@ spec:
   git:
     repo: https://github.com/Roopa-Sri3/kubernetes
     branch: main
-    dir: /APPLICATIONS/PROD/
+    dir: /APPLICATIONS/PROD
     auth: none
     

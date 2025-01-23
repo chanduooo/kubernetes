@@ -10,5 +10,5 @@ spec:
   git:
     repo: https://github.com/Roopa-Sri3/kubernetes
     branch: main
-    dir: /APPLICATIONS/STAGING/
+    dir: /APPLICATIONS/STAGING
     auth: none
