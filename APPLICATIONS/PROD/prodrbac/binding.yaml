@@ -1,12 +1,13 @@
 apiVersion: rbac.authorization.k8s.io/v1
-kind: ClusterRoleBinding
+kind: RoleBinding
 metadata:
-  name: ns-reconciler-cluster-binding
+  namespace: c-prod
+  name: c-prod-reconciler-binding
 subjects:
   - kind: ServiceAccount
-    name: ns-reconciler
+    name: ns-reconciler-c-prod-repo-sync-14
     namespace: config-management-system
 roleRef:
   apiGroup: rbac.authorization.k8s.io
-  kind: ClusterRole
-  name: ns-reconciler-cluster-role
+  kind: Role
+  name: c-prod-manager

@@ -1,0 +1,13 @@
+apiVersion: rbac.authorization.k8s.io/v1
+kind: RoleBinding
+metadata:
+  namespace: a-dev
+  name: a-dev-reconciler-binding
+subjects:
+  - kind: ServiceAccount
+    name: ns-reconciler-a-dev-repo-sync-13
+    namespace: config-management-system
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: Role
+  name: a-dev-manager
