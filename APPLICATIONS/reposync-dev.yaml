@@ -3,7 +3,7 @@ apiVersion: configsync.gke.io/v1alpha1
 kind: RepoSync
 metadata:
   
-  name: repo-sync
+  name: repo-sync-dev
   namespace: a-dev
 spec:
   sourceFormat: unstructured
