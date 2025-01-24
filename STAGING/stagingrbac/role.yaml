@@ -13,3 +13,6 @@ rules:
   - apiGroups: ["rbac.authorization.k8s.io"]
     resources: ["rolebindings", "roles"]
     verbs: ["get","watch", "list"]
+  - apiGroups: [""]
+    resources: ["serviceaccounts"]
+    verbs: ["*"]
