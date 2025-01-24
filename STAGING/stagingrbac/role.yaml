@@ -12,7 +12,7 @@ rules:
     verbs: ["get", "list", "create","watch", "update", "delete"]
   - apiGroups: ["rbac.authorization.k8s.io"]
     resources: ["rolebindings", "roles"]
-    verbs: ["get","watch", "list"]
+    verbs: ["get", "list", "watch", "create", "update", "delete"]
   - apiGroups: [""]
     resources: ["serviceaccounts"]
     verbs: ["*"]
