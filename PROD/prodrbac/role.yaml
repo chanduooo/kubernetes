@@ -5,7 +5,7 @@ metadata:
   name: c-prod-manager
 rules:
   - apiGroups: [""]
-    resources: ["services"]
+    resources: ["services","pods"]
     verbs: ["get", "list","watch", "create", "update", "delete"]
   - apiGroups: ["apps"]
     resources: ["deployments"]

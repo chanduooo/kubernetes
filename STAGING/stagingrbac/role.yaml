@@ -5,7 +5,7 @@ metadata:
   name: b-staging-manager
 rules:
   - apiGroups: [""]
-    resources: ["services"]
+    resources: ["services","pods"]
     verbs: ["get", "list", "create","watch", "update", "delete"]
   - apiGroups: ["apps"]
     resources: ["deployments"]
