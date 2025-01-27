@@ -8,7 +8,7 @@ metadata:
 spec:
   sourceFormat: unstructured
   git:
-    repo: https://github.com/Roopa-Sri3/kubernetes
+    repo: https://github.com/Roopa-Sri3/kubernetes.git
     branch: main
     dir: /STAGING
     auth: none
