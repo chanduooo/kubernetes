@@ -5,11 +5,11 @@ metadata:
   name: b-staging-manager
 rules:
   - apiGroups: [""]
-    resources: ["services","pods"]
-    verbs: ["get", "list", "create","watch", "update", "delete"]
+    resources: ["services", "pods"]
+    verbs: ["get", "list", "create", "watch", "update", "delete"]
   - apiGroups: ["apps"]
     resources: ["deployments"]
-    verbs: ["get", "list", "create","watch", "update", "delete"]
+    verbs: ["get", "list", "create", "watch", "update", "delete"]
   - apiGroups: ["rbac.authorization.k8s.io"]
     resources: ["rolebindings", "roles"]
     verbs: ["get", "list", "watch", "create", "update", "delete"]
