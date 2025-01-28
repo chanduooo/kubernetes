@@ -3,12 +3,13 @@ apiVersion: configsync.gke.io/v1beta1
 kind: RepoSync
 metadata:
   
-  name: reposyncstaging
-  namespace: staging
+  name: reposyncprod
+  namespace: prod
 spec:
   sourceFormat: unstructured
   git:
     repo: https://github.com/Roopa-Sri3/kubernetes.git
     branch: main
-    dir: /APPLICATIONS/STAGING
+    dir: /APPLICATIONS/PROD/resources/
     auth: none
+    
