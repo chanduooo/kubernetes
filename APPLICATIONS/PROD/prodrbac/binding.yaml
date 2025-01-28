@@ -1,11 +1,11 @@
 apiVersion: rbac.authorization.k8s.io/v1
 kind: RoleBinding
 metadata:
-  namespace: cprod
+  namespace: prod
   name: c-prod-reconciler-binding
 subjects:
   - kind: ServiceAccount
-    name: ns-reconciler-cprod
+    name: ns-reconciler-prod
     namespace: config-management-system
 roleRef:
   apiGroup: rbac.authorization.k8s.io

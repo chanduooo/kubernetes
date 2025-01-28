@@ -4,7 +4,7 @@ kind: RepoSync
 metadata:
   
   name: repo-sync-staging
-  namespace: b-staging
+  namespace: staging
 spec:
   sourceFormat: unstructured
   git:
