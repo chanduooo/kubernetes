@@ -2,7 +2,7 @@ kind: Service
 apiVersion: v1
 metadata:
   name: c-nginx
-  namespace: c-prod
+  namespace: cprod
 spec:
   selector:
     app: c-nginx

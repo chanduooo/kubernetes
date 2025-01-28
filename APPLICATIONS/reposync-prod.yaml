@@ -4,7 +4,7 @@ kind: RepoSync
 metadata:
   
   name: repo-sync-prod
-  namespace: c-prod
+  namespace: cprod
 spec:
   sourceFormat: unstructured
   git:
