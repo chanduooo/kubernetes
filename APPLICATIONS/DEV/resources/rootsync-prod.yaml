@@ -9,5 +9,5 @@ spec:
   git:
     repo: https://github.com/Roopa-Sri3/kubernetes.git
     branch: dev
-    dir: /APPLICATIONS/PROD/
+    dir: /APPLICATIONS/PROD/c-nginx
     auth: none
