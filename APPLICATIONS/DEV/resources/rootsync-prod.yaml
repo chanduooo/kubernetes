@@ -1,13 +1,13 @@
-apiVersion: configsync.gke.io/v1beta1
-kind: RootSync
-metadata:
+# apiVersion: configsync.gke.io/v1beta1
+# kind: RepoSync
+# metadata:
   
-  name: rootsyncprod
-  namespace: prod
-spec:
-  sourceFormat: unstructured
-  git:
-    repo: https://github.com/Roopa-Sri3/kubernetes.git
-    branch: dev
-    dir: /APPLICATIONS/PROD/c-nginx
-    auth: none
+#   name: reposyncprod
+#   namespace: prod
+# spec:
+#   sourceFormat: unstructured
+#   git:
+#     repo: https://github.com/Roopa-Sri3/kubernetes.git
+#     branch: main
+#     dir: /APPLICATIONS/PROD/c-nginx
+#     auth: none
